@@ -13,11 +13,12 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/johnsundell/Publish.git", from: "0.9.0"),
+        .package(url: "https://github.com/scinfu/SwiftSoup.git", from: "2.0.0")
     ],
     targets: [
         .target(
             name: "MatomoPublishPlugin",
-            dependencies: ["Publish"]),
+            dependencies: ["Publish", "SwiftSoup"]),
         .testTarget(
             name: "MatomoPublishPluginTests",
             dependencies: ["MatomoPublishPlugin"]),
