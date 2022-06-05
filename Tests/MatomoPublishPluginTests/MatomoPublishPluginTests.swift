@@ -6,6 +6,6 @@ final class MatomoPublishPluginTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(MatomoPublishPlugin().text, "Hello, World!")
+//        XCTAssertEqual(MatomoPublishPlugin().text, "Hello, World!")
     }
 }
