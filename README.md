@@ -1,6 +1,6 @@
 # MatomoPublishPlugin
 
-MatomoPublishPlugin is a tiny Swift package that provides a way of injecting Matomo (previously Piwik) HTML tracking code into any generation pipeline of the [Publish](https://github.com/JohnSundell/Publish) static-site generator.
+MatomoPublishPlugin is a tiny Swift package that provides a way of injecting [Matomo](https://matomo.org) (previously Piwik) HTML tracking code into any generation pipeline of the [Publish](https://github.com/JohnSundell/Publish) static-site generator.
 
 This does not use any JavaScript and keeps your site static by only injecting an image-based tracking beacon. It is less evil than JavaScript and collects less information about any users of your website.
 
